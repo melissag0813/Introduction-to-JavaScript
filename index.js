@@ -1,13 +1,18 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
+// const votingAge = 18;
+
+const votingAge = '18';
+if (votingAge > 17) {
+    return true;
+} else {
+    return false;
 
 
 
 
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
-
-
 
 
 
@@ -59,9 +64,16 @@
 // it should return you won or you lost based on the rules of the game (you may need to look up the rules if you have not played before)
 // use math.random to determine the computers choice 
 // hint while you can complete this with only conditionals based on strings it may help to equate choice to a number 
+rock > scissors
+scissors > paper
+paper > rock
+our guess "scissors"
+Math.ran
 
-  
-  
+
+  function Game(guess){
+    
+  }
 
 /************************************************************** Task 5 **************************************************************/
 //Metric Converter
